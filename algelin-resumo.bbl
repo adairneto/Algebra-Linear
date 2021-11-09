@@ -1,0 +1,23 @@
+\begin{thebibliography}{Coe01}
+
+\bibitem[Alg71]{algebra1971kenneth}
+Linear Algebra.
+\newblock {\em Kenneth Hoffman and Ray Kunze}.
+\newblock Prentice Hall, Englewood Cliffs, New Jersey, 1971.
+
+\bibitem[Axl14]{axler2014linear}
+Sheldon Axler.
+\newblock {\em Linear algebra done right}.
+\newblock Springer, 2014.
+
+\bibitem[Coe01]{coelho2001curso}
+Fl{\'a}vio~Ulhoa Coelho.
+\newblock {\em Curso de {\'A}lgebra Linear, Um Vol. 34}.
+\newblock Edusp, 2001.
+
+\bibitem[Pul12]{pulino2012algebra}
+Petronio Pulino.
+\newblock Algebra linear e suas aplica{\c{c}}oes notas de aula.
+\newblock {\em Campinas: Universidade Estadual de Campinas}, 2012.
+
+\end{thebibliography}
