@@ -17,11 +17,10 @@
 \contentsline {subsection}{\numberline {2.2}O que \IeC {\'e} combina\IeC {\c c}\IeC {\~a}o linear?}{7}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}O que s\IeC {\~a}o subespa\IeC {\c c}os?}{7}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}O que significa subespa\IeC {\c c}o gerado (subspace spanned)?}{7}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}O que s\IeC {\~a}o base e dimens\IeC {\~a}o?}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}O que s\IeC {\~a}o base e dimens\IeC {\~a}o?}{8}{subsection.2.5}%
 \contentsline {subsection}{\numberline {2.6}O que s\IeC {\~a}o coordenadas?}{8}{subsection.2.6}%
 \contentsline {subsection}{\numberline {2.7}Como fazer matriz de mudan\IeC {\c c}a de base?}{9}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Exerc\IeC {\'\i }cios Resolvidos}{10}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Material Complementar}{10}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.8}Material Complementar}{10}{subsection.2.8}%
 \contentsline {section}{\numberline {3}Transforma\IeC {\c c}\IeC {\~o}es Lineares}{11}{section.3}%
 \contentsline {subsection}{\numberline {3.1}O que \IeC {\'e} uma transforma\IeC {\c c}\IeC {\~a}o linear?}{11}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}O que s\IeC {\~a}o N\IeC {\'u}cleo e Imagem?}{12}{subsection.3.2}%
@@ -30,24 +29,24 @@
 \contentsline {subsection}{\numberline {3.5}A \IeC {\'A}lgebra das Transforma\IeC {\c c}\IeC {\~o}es Lineares}{13}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}O que s\IeC {\~a}o isomorfismos?}{14}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Como representar transforma\IeC {\c c}\IeC {\~o}es com matrizes?}{15}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Exerc\IeC {\'\i }cios Resolvidos}{16}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Produto Interno}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}O que \IeC {\'e}?}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Desigualdade de Cauchy-Schwarz}{19}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Norma e M\IeC {\'e}trica}{20}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}\IeC {\^A}ngulo e Ortogonalidade}{21}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Processo de Gram-Schmidt}{22}{subsection.4.5}%
-\contentsline {paragraph}{Demonstra\IeC {\c c}\IeC {\~a}o:}{22}{section*.2}%
-\contentsline {subsection}{\numberline {4.6}Complemento Ortogonal}{23}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Proje\IeC {\c c}\IeC {\~a}o Ortogonal}{23}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Operadores auto-adjuntos}{23}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Operadores ortogonais}{24}{subsection.4.9}%
-\contentsline {section}{\numberline {5}Autovalores e Autovetores}{25}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Motiva\IeC {\c c}\IeC {\~a}o}{25}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}O que s\IeC {\~a}o?}{26}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Como encontr\IeC {\'a}-los?}{26}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Multiplicidades alg\IeC {\'e}brica e geom\IeC {\'e}trica}{27}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Diagonaliza\IeC {\c c}\IeC {\~a}o}{28}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Subespa\IeC {\c c}o Invariante}{29}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Matrizes Especiais}{30}{subsection.5.7}%
-\contentsline {subsection}{\numberline {5.8}Teorema Espectral}{31}{subsection.5.8}%
+\contentsline {subsection}{\numberline {3.8}Exerc\IeC {\'\i }cios Resolvidos}{18}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Produto Interno}{19}{section.4}%
+\contentsline {subsection}{\numberline {4.1}O que \IeC {\'e}?}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Desigualdade de Cauchy-Schwarz}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Norma e M\IeC {\'e}trica}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}\IeC {\^A}ngulo e Ortogonalidade}{22}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Processo de Gram-Schmidt}{23}{subsection.4.5}%
+\contentsline {paragraph}{Demonstra\IeC {\c c}\IeC {\~a}o:}{23}{section*.2}%
+\contentsline {subsection}{\numberline {4.6}Complemento Ortogonal}{24}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Proje\IeC {\c c}\IeC {\~a}o Ortogonal}{24}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Operadores auto-adjuntos}{24}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Operadores ortogonais}{25}{subsection.4.9}%
+\contentsline {section}{\numberline {5}Autovalores e Autovetores}{26}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Motiva\IeC {\c c}\IeC {\~a}o}{26}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}O que s\IeC {\~a}o?}{27}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Como encontr\IeC {\'a}-los?}{27}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Multiplicidades alg\IeC {\'e}brica e geom\IeC {\'e}trica}{28}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Diagonaliza\IeC {\c c}\IeC {\~a}o}{29}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Subespa\IeC {\c c}o Invariante}{30}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Matrizes Especiais}{31}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.8}Teorema Espectral}{32}{subsection.5.8}%

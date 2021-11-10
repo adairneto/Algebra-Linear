@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  8 NOV 2021 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  10 NOV 2021 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -637,7 +637,7 @@ Library (tcolorbox): 'tcbtheorems.code.tex' version '4.42'
 \c@tcb@cnt@teorema=\count298
 \c@tcb@cnt@exemplo=\count299
 \c@tcb@cnt@exercicio=\count300
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
  (/usr/share/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
@@ -648,35 +648,44 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 )
 (./algelin-resumo.aux
 
+LaTeX Warning: Label `theorem:C' multiply defined.
+
+
+LaTeX Warning: Label `theorem:S' multiply defined.
+
+
+LaTeX Warning: Label `theorem:S' multiply defined.
+
+
 LaTeX Warning: Label `theorem:S' multiply defined.
 
 )
 \openout1 = `algelin-resumo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
  (/usr/share/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
 \c@mv@tabular=\count302
 \c@mv@boldtabular=\count303
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -689,9 +698,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./algelin-resumo.out) (./algelin-resumo.out)
 \@outlinefile=\write6
@@ -723,22 +732,22 @@ e
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <20.74> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 44.
+ut line 45.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 44.
+(Font)              scaled to size 20.74pt on input line 45.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 44.
+ut line 45.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 44.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+(Font)              scaled to size 14.4pt on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
 
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -750,15 +759,15 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 48.
+ut line 49.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 49.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <17.28> not availa
 ble
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 48.
+line 49.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 49.
  (./algelin-resumo.toc
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <12> not available
 
@@ -774,38 +783,38 @@ LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/b/n' in size <14.4> not availab
 le
 (Font)              Font shape `T1/FiraSans-OsF/bold/n' tried instead on input 
-line 60.
+line 61.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 60.
+(Font)              scaled to size 14.4pt on input line 61.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 
+l.80 
       [1
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.113 $
+l.114 $
        $ [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 128.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 127.
+(hyperref)                removing `math shift' on input line 128.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.152 S
+l.153 S
        abemos que toda distÃ¢ncia Ã© simÃ©trica (isto Ã©, tÃªm o mesmo valor...
 [3] [4] [5]
-Overfull \hbox (0.4729pt too wide) in paragraph at lines 187--188
+Overfull \hbox (0.4729pt too wide) in paragraph at lines 188--189
 []\T1/FiraSans-OsF/regular/n/12 Vamos in-tro-du-zir aqui o ob-jeto ma-te-má-tic
 o que será o cen-tro de nosso
  []
@@ -815,57 +824,75 @@ File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 ) [6] [7]
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <8> not available
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 245.
+ut line 252.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 245.
+(Font)              scaled to size 8.0pt on input line 252.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/n' in size <6> not available
 (Font)              Font shape `T1/FiraSans-OsF/regular/n' tried instead on inp
-ut line 245.
+ut line 252.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 245.
- [8] [9] [10]
-[11] [12] [13] [14] [15] [16] [17] [18]
-LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
-ut line 557.
+(Font)              scaled to size 6.0pt on input line 252.
+ [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
-(/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
+ []
+
+[10] [11] [12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 514--516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--543
+
+ []
+
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
+
+ []
+
+[17] [18] [19]
+LaTeX Font Info:    Trying to load font information for TS1+FiraSans-OsF on inp
+ut line 655.
+ (/usr/share/texmf-dist/tex/latex/fira/TS1FiraSans-OsF.fd
 File: TS1FiraSans-OsF.fd 2019/10/10 (autoinst) Font definitions for TS1/FiraSan
 s-OsF.
 )
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/m/n' in size <12> not availabl
 e
 (Font)              Font shape `TS1/FiraSans-OsF/regular/n' tried instead on in
-put line 557.
+put line 655.
 LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 557.
- [19] [20] [21]
-[22] [23] [24] [25] [26] [27]
-Overfull \hbox (9.21788pt too wide) in paragraph at lines 876--877
+(Font)              scaled to size 12.0pt on input line 655.
+
+[20] [21] [22] [23] [24] [25] [26] [27] [28]
+Overfull \hbox (9.21788pt too wide) in paragraph at lines 974--975
 \T1/FiraSans-OsF/regular/n/12 Além disso, se $\OML/cmm/m/it/12 ^^L[]$ \T1/FiraS
 ans-OsF/regular/n/12 é uma base or-de-nada para $\OML/cmm/m/it/12 W[]$\T1/FiraS
 ans-OsF/regular/n/12 , en-tão $\OML/cmm/m/it/12 ^^L \OT1/cmr/m/n/12 = \OMS/cmsy
 /m/n/12 f\OML/cmm/m/it/12 ^^L[]; [] ; ^^L[]\OMS/cmsy/m/n/12 g$
  []
 
-[28] [29] (./algelin-resumo.bbl
+[29] [30] (./algelin-resumo.bbl
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not availabl
 e
 (Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
 put line 5.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 12.0pt on input line 5.
- [30]) [31] (./algelin-resumo.aux)
+ [31]) [32] (./algelin-resumo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `algelin-resumo.out' has not changed.
-(rerunfilecheck)             Checksum: 21E0EEF29C74DA97DE14BCA074B5BBAA;9527.
+(rerunfilecheck)             Checksum: 4FB15554D506711F299456E12BCAEE1C;9358.
  ) 
 Here is how much of TeX's memory you used:
- 22397 strings out of 478994
- 394905 string characters out of 5864750
- 698713 words of memory out of 5000000
- 39318 multiletter control sequences out of 15000+600000
+ 22414 strings out of 478994
+ 395121 string characters out of 5864750
+ 698822 words of memory out of 5000000
+ 39324 multiletter control sequences out of 15000+600000
  587834 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  112i,16n,116p,500b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -883,10 +910,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on algelin-resumo.pdf (34 pages, 339355 bytes).
+Output written on algelin-resumo.pdf (35 pages, 345782 bytes).
 PDF statistics:
- 577 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 421 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 589 PDF objects out of 1000 (max. 8388607)
+ 532 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 413 words of extra memory for PDF output out of 10000 (max. 10000000)
 
