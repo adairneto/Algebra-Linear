@@ -12,12 +12,14 @@
 \usepackage[T1]{fontenc}
 \renewcommand*\oldstylenums[1]{{\firaoldstyle #1}}
 \usepackage[titles]{tocloft}
+\usepackage{systeme}
 \renewcommand{\cftdot}{}
 \usepackage[colorlinks=true, allcolors=magenta]{hyperref}
 \usepackage{url}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox}
-\tcbuselibrary{theorems}
+\tcbuselibrary{theorems,breakable}
+\tcbsetforeverylayer{autoparskip, breakable}
 \newtcbtheorem[number within=section]{teorema}{Teorema}%
 {colback=white!5,colframe=SpringGreen!35!black,fonttitle=\bfseries}{theorem}
 \newtcbtheorem[number within=section]{exemplo}{Exemplo}%
@@ -984,6 +986,73 @@ Com essas conclusões é possível desconfiar que existem mais equivalências en
 \item $\text{dim}(W_1) + \ldots + \text{dim}(W_k) = \text{dim}(V)$.
 \end{enumerate}
 \end{teorema}
+
+\begin{exemplo}{Diagonalização de operador linear}
+SSeja $T \in \mathcal{L}(\mathbb{R}^3)$ definido por \[T(x,y,z) = (-9x+4y+4z, -8x+3y+4z, -16x+8y+7z)\] Mostre que $T$ é diagonalizável e encontre os autovetores que formam um base para $\mathbb{R}^3$. \\
+
+\textbf{Solução:}
+Note que a matriz de $T$ na base canônica $\beta$ é:
+\[
+[T]_{\beta} = 
+\begin{bmatrix}
+-9 & 4 & 4 \\
+-8 & 3 & 4 \\
+-16 & 8 & 7
+\end{bmatrix}
+\]
+O primeiro passo é encontrar os autovalores de $[T]_{\beta}$. Calculando $\text{det}([T]_{\beta} - \lambda I)$:
+\[
+\begin{vmatrix}
+-9-\lambda & 4 & 4 \\
+-8 & 3-\lambda & 4 \\
+-16 & 8 & 7-\lambda
+\end{vmatrix}
+= -\lambda^3+\lambda^2+5\lambda+3 = 0 \iff (\lambda+1)^2(\lambda-3) = 0
+\]
+
+Assim, temos dois autovalores $\lambda_1 = -1$, com multiplicidade algébrica igual a dois, e $\lambda_2 = 3$. 
+
+Calculando o autovetor associado a $\lambda_1 = -1$:
+\[
+\begin{bmatrix}
+-9 & 4 & 4 \\
+-8 & 3 & 4 \\
+-16 & 8 & 7
+\end{bmatrix}
+\begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3 \\
+\end{bmatrix}
+= -1 \begin{bmatrix}
+x_1 \\
+x_2 \\
+x_3 \\
+\end{bmatrix}
+\iff
+\systeme{-8x_1 + 4 x_2 + 4x_3 = 0, -8x_1+4x_2+4x_3 = 0, -16x_1+8x_2+8x_3 = 0}
+\]
+Note que temos apenas uma linha linearmente independente. Ou seja, o núcleo da matriz dos coeficientes tem posto igual a dois. Isso significa que podemos extrair dois autovetores linearmente independentes.
+
+De fato, podemos tomar $x_1 = 1, x_2 = 2, x_3 = 0$ e $x_1 = 1, x_2 = 0, x_3 = 2$, obtendo os autovetores $(1,2,0)$ e $(1,0,2)$.
+
+Para $\lambda_2 = 3$, temos o sistema:
+\[
+\systeme{-12x_1 + 4 x_2 + 4x_3 = 0, -8x_1+0x_2+4x_3 = 0, -16x_1+8x_2+4x_3 = 0} \iff \systeme{x_1 = \frac{1}{2} x_3, x_2 = \frac{1}{2} x_3, x_3 = x_3}
+\]
+Portanto, podemos escolher o vetor $(1,1,2)$.
+
+Como obtivemos três autovetores linearmente independentes, temos que $T$ é um operador diagonalizável. Além disso, temos a seguinte base para $\mathbb{R}^3$:
+\[
+\begin{bmatrix}
+1 & 2 & 0 \\
+1 & 0 & 2 \\
+1 & 1 & 1
+\end{bmatrix}
+\]
+\end{exemplo}
+
+% $Ax=\lambda x \iff Ax-\lambda x = 0 \iff (A-\lambda I)x=0$. 
 
 \subsection{Subespaço Invariante}
 
