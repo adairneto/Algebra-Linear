@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  17 NOV 2021 17:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/Arch Linux) (preloaded format=pdflatex 2021.10.25)  23 NOV 2021 14:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -698,6 +698,9 @@ LaTeX Warning: Label `theorem:S' multiply defined.
 
 LaTeX Warning: Label `theorem:S' multiply defined.
 
+
+LaTeX Warning: Label `theorem:S' multiply defined.
+
 )
 \openout1 = `algelin-resumo.aux'.
 
@@ -906,20 +909,20 @@ LaTeX Font Info:    Font shape `TS1/FiraSans-OsF/regular/n' will be
 (Font)              scaled to size 12.0pt on input line 657.
 
 [20] [21] [22] [23] [24] [25] [26] [27] [28]
-Overfull \hbox (9.21788pt too wide) in paragraph at lines 976--977
+Overfull \hbox (9.21788pt too wide) in paragraph at lines 978--979
 \T1/FiraSans-OsF/regular/n/12 Além disso, se $\OML/cmm/m/it/12 ^^L[]$ \T1/FiraS
 ans-OsF/regular/n/12 é uma base or-de-nada para $\OML/cmm/m/it/12 W[]$\T1/FiraS
 ans-OsF/regular/n/12 , en-tão $\OML/cmm/m/it/12 ^^L \OT1/cmr/m/n/12 = \OMS/cmsy
 /m/n/12 f\OML/cmm/m/it/12 ^^L[]; [] ; ^^L[]\OMS/cmsy/m/n/12 g$
  []
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
 
  []
 
 
-Overfull \hbox (0.83731pt too wide) detected at line 1011
+Overfull \hbox (0.83731pt too wide) detected at line 1076
 [] \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 ^^U[] \OT1/cmr/m/n/12
  + \OML/cmm/m/it/12 ^^U[] \OT1/cmr/m/n/12 + 5\OML/cmm/m/it/12 ^^U \OT1/cmr/m/n/
 12 + 3 = 0  \OMS/cmsy/m/n/12 ([])  \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 ^^U \OT1/c
@@ -927,14 +930,14 @@ mr/m/n/12 + 1)[](\OML/cmm/m/it/12 ^^U \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 3) =
  0
  []
 
-[30] [31] [32] (./algelin-resumo.bbl
+[31] [32] (./algelin-resumo.bbl
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/m/it' in size <12> not availabl
 e
 (Font)              Font shape `T1/FiraSans-OsF/regular/it' tried instead on in
 put line 5.
 LaTeX Font Info:    Font shape `T1/FiraSans-OsF/regular/it' will be
 (Font)              scaled to size 12.0pt on input line 5.
-) [33] (./algelin-resumo.aux)
+ [33]) [34] (./algelin-resumo.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -942,10 +945,10 @@ Package rerunfilecheck Info: File `algelin-resumo.out' has not changed.
 (rerunfilecheck)             Checksum: 4FB15554D506711F299456E12BCAEE1C;9358.
  ) 
 Here is how much of TeX's memory you used:
- 23181 strings out of 478994
- 410094 string characters out of 5864750
- 721345 words of memory out of 5000000
- 40071 multiletter control sequences out of 15000+600000
+ 23188 strings out of 478994
+ 410176 string characters out of 5864750
+ 722362 words of memory out of 5000000
+ 40073 multiletter control sequences out of 15000+600000
  587834 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  112i,16n,116p,500b,686s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -963,10 +966,10 @@ share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist
 ublic/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
 symbols/msam10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb>
-Output written on algelin-resumo.pdf (36 pages, 351305 bytes).
+Output written on algelin-resumo.pdf (37 pages, 353858 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 536 compressed objects within 6 object streams
- 166 named destinations out of 1000 (max. 500000)
+ 606 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
+ 171 named destinations out of 1000 (max. 500000)
  413 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -834,6 +834,8 @@ Notemos que a adjunta é semelhante ao conjugado em números complexos. E valem 
 
 Assim como um número complexo $z$ é real sse. $z = \bar{z}$, queremos definir algo semelhante para o caso em que $T = T^{\ast}$. Caso essa igualdade seja satisfeita, dizemos que o operador linear $T$ é \textbf{auto-adjunto} (ou \textbf{hermitiano}, no caso complexo, e \textbf{simétrico}, no caso real).
 
+Caso $T$ comute com sua adjunta, i.e., $TT^{\ast} = T^{\ast}T$, então $T$ é dito operador \textbf{normal}.
+
 \subsection{Operadores ortogonais}
 
 Análogo ao que fizemos para operadores auto-adjuntos, temos que $T$ é um \textbf{operador ortogonal} se 
@@ -987,6 +989,69 @@ Com essas conclusões é possível desconfiar que existem mais equivalências en
 \end{enumerate}
 \end{teorema}
 
+A partir desse resultado, dada uma matriz diagonalizável $A$, conseguimos encontrar uma matriz diagonal $\Lambda$, similar à A, tal que
+\[
+A = P \Lambda P^{-1} \text{ e } \Lambda = P^{-1} A P
+\]
+onde $\Lambda$ é construída a partir dos autovalores de $A$ e $P$, a partir dos autovetores de $A$.
+
+\subsection{Subespaço Invariante}
+
+Suponha $T \in \mathcal{L}(V)$. Se decompormos $V$ em somas diretas
+\[
+V = U_1 \oplus \ldots \oplus U_m
+\]
+onde cada $U_j$ é um subespaço próprio de $V$, então para entender o comportamento de $T$ basta analisar o comportamento de $T$ em cada $U_j$. Para facilitar a leitura, vamos denotar $T|_{U_j}$ para nos referirmos a $T$ restrito a um subespaço $U_j$.
+
+Porém, nem sempre $T|_{U_j}$ terá a imagem no próprio subespaço ${U_j}$. Por isso, iremos nos munir da seguinte definição.
+
+Um subespaço $U$ de $V$ é dito $\textbf{subespaço invariante}$ sobre $T$ se $u \in U$ implica que $T(u) \in U$. Isto é, $U$ é invariante sobre $T$ se $T|_U$ é um operador linear em $U$.
+
+\subsection{Matrizes Especiais}
+
+Uma matriz quadrada $A$, sobre o corpo $\mathbb{F}$, tal que $A = \overline{A^T}$, i.e. cada $a_{ij}= \overline{a_{ji}}$, é dita \textbf{matriz simétrica} se $\mathbb{F} = \mathbb{R}$ e é dita \textbf{matriz hermitiana} se $\mathbb{F} = \mathbb{C}$.
+
+Para uma matrix $2 \times 2$, uma matriz é hermitiana sse. for da forma
+$$
+\begin{bmatrix}
+	z & x+iy \\
+	x-iy & w
+\end{bmatrix}
+$$
+onde $x, y, z, w \in \mathbb{R}$.
+
+Observe que se $A \in \mathbb{M}_n(\mathbb{F})$ é matriz simétrica/hermitiana e $X,Y \in \mathbb{F}^n$, então 
+\[
+\langle AX, Y \rangle = \langle X, A^{\ast} Y \rangle = \langle X, A Y \rangle
+\]
+
+Outro resultado importante é que se $A$ é hermitiana, então os autovalores de $A$ são reais e os autovetores associados a autovalores distintos são ortogonais entre si.
+
+Dada uma matriz $A \in \mathbb{M}_n(\mathbb{R})$ simétrica, então $A$ é dita \textbf{matriz positiva definida} caso
+\[
+\langle Ax, x \rangle = x^T A x > 0 \, \forall x \neq 0, x \in \mathbb{R}^n
+\]
+
+Caso $A \in \mathbb{M}_n(\mathbb{C})$ seja uma matriz hermitiana, então $A$ é dita \textbf{matriz positiva definida} caso
+\[
+\langle Ax, x \rangle = x^{\ast} A x > 0 \, \forall x \neq 0, x \in \mathbb{C}^n
+\]
+
+Quando é o caso que uma matriz simétrica ou hermitiana é positiva definida? 
+
+\begin{teorema}{}
+ SSeja $A \in \mathbb{M}_n(\mathbb{C})$ hermitiana. Então $A$ é positiva definida sse. todos seus autovalores são positivos.
+\end{teorema}
+
+Uma matriz $A$, com entradas reais ou complexas, $n \times n$, é dita \textbf{matriz ortogonal} se $A^T A = I$. Caso $A$ tenha entradas complexas e $A^{\ast} A = I$, então $A$ é dita \textbf{matriz unitária}.
+
+Dois resultados importantes sobre matrizes unitárias são:
+
+\begin{enumerate}
+\item Se $A$ é matriz unitária e $\lambda$ é autovalor de $A$, então $| \lambda | = 1$.
+\item Se $A$ é matriz unitária, então $| \text{det}(A) | = 1$.
+\end{enumerate}
+
 \begin{exemplo}{Diagonalização de operador linear}
 SSeja $T \in \mathcal{L}(\mathbb{R}^3)$ definido por \[T(x,y,z) = (-9x+4y+4z, -8x+3y+4z, -16x+8y+7z)\] Mostre que $T$ é diagonalizável e encontre os autovetores que formam um base para $\mathbb{R}^3$. \\
 
@@ -1052,67 +1117,18 @@ Como obtivemos três autovetores linearmente independentes, temos que $T$ é um 
 \]
 \end{exemplo}
 
-% $Ax=\lambda x \iff Ax-\lambda x = 0 \iff (A-\lambda I)x=0$. 
-
-\subsection{Subespaço Invariante}
-
-Suponha $T \in \mathcal{L}(V)$. Se decompormos $V$ em somas diretas
-\[
-V = U_1 \oplus \ldots \oplus U_m
-\]
-onde cada $U_j$ é um subespaço próprio de $V$, então para entender o comportamento de $T$ basta analisar o comportamento de $T$ em cada $U_j$. Para facilitar a leitura, vamos denotar $T|_{U_j}$ para nos referirmos a $T$ restrito a um subespaço $U_j$.
-
-Porém, nem sempre $T|_{U_j}$ terá a imagem no próprio subespaço ${U_j}$. Por isso, iremos nos munir da seguinte definição.
-
-Um subespaço $U$ de $V$ é dito $\textbf{subespaço invariante}$ sobre $T$ se $u \in U$ implica que $T(u) \in U$. Isto é, $U$ é invariante sobre $T$ se $T|_U$ é um operador linear em $U$.
-
-\subsection{Matrizes Especiais}
-
-Uma matriz quadrada $A$, sobre o corpo $\mathbb{F}$, tal que $A = \overline{A^T}$, i.e. cada $a_{ij}= \overline{a_{ji}}$, é dita \textbf{matriz simétrica} se $\mathbb{F} = \mathbb{R}$ e é dita \textbf{matriz hermitiana} se $\mathbb{F} = \mathbb{C}$.
-
-Para uma matrix $2 \times 2$, uma matriz é hermitiana sse. for da forma
-$$
-\begin{bmatrix}
-	z & x+iy \\
-	x-iy & w
-\end{bmatrix}
-$$
-onde $x, y, z, w \in \mathbb{R}$.
-
-Observe que se $A \in \mathbb{M}_n(\mathbb{F})$ é matriz simétrica/hermitiana e $X,Y \in \mathbb{F}^n$, então 
-\[
-\langle AX, Y \rangle = \langle X, A^{\ast} Y \rangle = \langle X, A Y \rangle
-\]
-
-Outro resultado importante é que se $A$ é hermitiana, então os autovalores de $A$ são reais e os autovetores associados a autovalores distintos são ortogonais entre si.
-
-Dada uma matriz $A \in \mathbb{M}_n(\mathbb{R})$ simétrica, então $A$ é dita \textbf{matriz positiva definida} caso
-\[
-\langle Ax, x \rangle = x^T A x > 0 \, \forall x \neq 0, x \in \mathbb{R}^n
-\]
-
-Caso $A \in \mathbb{M}_n(\mathbb{C})$ seja uma matriz hermitiana, então $A$ é dita \textbf{matriz positiva definida} caso
-\[
-\langle Ax, x \rangle = x^{\ast} A x > 0 \, \forall x \neq 0, x \in \mathbb{C}^n
-\]
-
-Quando é o caso que uma matriz simétrica ou hermitiana é positiva definida? 
-
-\begin{teorema}{}
- SSeja $A \in \mathbb{M}_n(\mathbb{C})$ hermitiana. Então $A$ é positiva definida sse. todos seus autovalores são positivos.
-\end{teorema}
-
-Uma matriz $A$, com entradas reais ou complexas, $n \times n$, é dita \textbf{matriz ortogonal} se $A^T A = I$. Caso $A$ tenha entradas complexas e $A^{\ast} A = I$, então $A$ é dita \textbf{matriz unitária}.
-
-Dois resultados importantes sobre matrizes unitárias são:
-
-\begin{enumerate}
-\item Se $A$ é matriz unitária e $\lambda$ é autovalor de $A$, então $| \lambda | = 1$.
-\item Se $A$ é matriz unitária, então $| \text{det}(A) | = 1$.
-\end{enumerate}
-
 \subsection{Teorema Espectral}
 
+\begin{teorema}{Teorema Espectral}
+SSuponha $T$ um operador linear em um espaço vetorial finito $V$. Caso $V$ esteja definido sobre $\mathbb{C}$, considere $T$ normal. Caso $V$ esteja definido sobre $\mathbb{R}$, considere $T$ auto-adjunto.
+
+Seja $\lambda_1, \ldots, \lambda_k$ autovalores distintos de $T$, $W_j$ o autoespaço associado a $\lambda_j$ e $E_j$ a projeção ortogonal de $V$ em $W_j$. Então, valem as seguintes afirmações:
+\begin{enumerate}
+\item $W_j$ é ortogonal a $W_i$ quando $i \neq j$.
+\item $V$ é a soma direta de $W_1, \ldots, W_k$.
+\item $T$ pode ser decomposto da forma \[T = \lambda_1 E_1 + \ldots + \lambda_k E_k\] denominada \textbf{resolução espectral}.
+\end{enumerate}
+\end{teorema}
 % Hoffman p. 344
 
 \nocite{*}
