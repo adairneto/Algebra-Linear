@@ -1,4 +1,4 @@
-\babel@toc {brazilian}{}
+\babel@toc {brazilian}{}\relax 
 \contentsline {section}{\numberline {1}Estruturas Alg\IeC {\'e}bricas}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}O que \IeC {\'e} um corpo (ou field)?}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}O que \IeC {\'e} um corpo ordenado?}{2}{subsection.1.2}%
