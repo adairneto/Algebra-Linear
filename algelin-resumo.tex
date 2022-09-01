@@ -279,6 +279,8 @@ Note que uma base é um conjunto, um objeto no qual a ordem não faz diferença.
 
 Vamos denotar $[ v ]_\beta$ as coordenadas do vetor $v$ em relação à base ordenada $\beta$. Além disso, vamos fazer um abuso de notação utilizando $\beta = \{ a_1, \ldots, a_n \}$ para denotar uma base ordenada.
 
+\newpage
+
 \subsection{Como fazer matriz de mudança de base?}
 
 Vamos tomar $\beta = \{ \beta_1, \ldots, \beta_n \}$ e $\gamma = \{ \gamma_1, \ldots, \gamma_n \}$ duas bases ordenadas de um espaço finito $V$.
@@ -290,7 +292,7 @@ $$\vdots$$
 $$\gamma_n = a_{1n}\cdot \beta_1 + a_{2n}\cdot \beta_2 + \ldots + a_{nn}\cdot \beta_n$$
 onde cada $a_{ij}$ é um escalar.
 
-Assim, para cada $i \in \{1, 2, \ldots, n \}$, o vetor das coordenadas de $\beta_i$ na base $\gamma$ é dado por
+Assim, para cada $i \in \{1, 2, \ldots, n \}$, as coordenadas do vetor $\gamma_i$ na base $\beta$ são dadas por
 $$
 [\gamma_i]_\beta =
 \begin{bmatrix} 
@@ -315,6 +317,7 @@ $$
 
 Note que cada coluna é formada pelas coordenadas de $\beta_1, \ldots, \beta_n$ em relação à base $\beta$. 
 
+\newpage
 \begin{exemplo}{Mudança de base}
 CConsidere $\beta$ a base canônica de $\mathbb{R}^3$ e $\gamma = \{(1,0,1),(1,1,1),(1,1,2)\}$. Encontre a matriz de mudança de base $P_{\gamma \to \beta}$. \\
 
