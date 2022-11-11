@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex algelin-resumo"] 1662057793 "algelin-resumo.aux" "algelin-resumo.bbl" "algelin-resumo" 1662057794
+["bibtex algelin-resumo"] 1662057793 "algelin-resumo.aux" "algelin-resumo.bbl" "algelin-resumo" 1668168250
   "/usr/share/texmf-dist/bibtex/bst/base/alpha.bst" 1650183167 23907 a5f93555796fb564b924339521f10a7c ""
-  "algelin-resumo.aux" 1662057794 9144 6d9447ae00cb62425ec9cd3d670c6243 "pdflatex"
+  "algelin-resumo.aux" 1668168250 9144 6d9447ae00cb62425ec9cd3d670c6243 "pdflatex"
   "algelin_resumo.bib" 1635440762 642 11d240f04b04672b5eb510ae04cc393c ""
   (generated)
   "algelin-resumo.bbl"
   "algelin-resumo.blg"
-["pdflatex"] 1662057793 "/home/herrmath/Dropbox/4. Archive/Math (General)/Álgebra Linear - Resumo/algelin-resumo.tex" "algelin-resumo.pdf" "algelin-resumo" 1662057794
-  "/home/herrmath/Dropbox/4. Archive/Math (General)/Álgebra Linear - Resumo/algelin-resumo.tex" 1662057791 53984 56506631eb529d5f15371b678e29263f ""
+["pdflatex"] 1668168247 "/home/herrmath/Dropbox/4. Archive/Math (General)/Álgebra Linear - Resumo/algelin-resumo.tex" "algelin-resumo.pdf" "algelin-resumo" 1668168250
+  "/home/herrmath/Dropbox/4. Archive/Math (General)/Álgebra Linear - Resumo/algelin-resumo.tex" 1668168245 54000 2aa8332e7bb71f39d06dc437eaed9d49 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_d67aat.enc" 1650179560 3385 21a7e8c8dac3c39de5acda2c56e7bd7e ""
   "/usr/share/texmf-dist/fonts/enc/dvips/fira/fir_iln36p.enc" 1650179560 3071 cfa92ee28d698dd9275559d9d1c3a233 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1650183167 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -200,13 +200,13 @@
   "/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1650183167 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1650183167 4902 efb3d66683a2da2a232f71e3a571a899 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1650183167 39911 2da6c67557ec033436fe5418a70a8a61 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1655393430 4278762 af3ac1370db81a450c1118eabf1fe718 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1655393404 2927664 6b88a1d22123e759178b4fc3442d30c8 ""
-  "algelin-resumo.aux" 1662057794 9144 6d9447ae00cb62425ec9cd3d670c6243 "pdflatex"
-  "algelin-resumo.bbl" 1662057793 656 6ad09e79834bfcd3d182f7c879ebd7fe "bibtex algelin-resumo"
-  "algelin-resumo.out" 1662057794 9358 4fb15554d506711f299456e12bcaee1c "pdflatex"
-  "algelin-resumo.tex" 1662057791 53984 56506631eb529d5f15371b678e29263f ""
-  "algelin-resumo.toc" 1662057794 5129 cb6a1745e3157329712b8788f6f4db08 "pdflatex"
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1668165954 4278762 af3ac1370db81a450c1118eabf1fe718 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668165946 2927662 a63676abc13940441472b590ed31fd09 ""
+  "algelin-resumo.aux" 1668168250 9144 6d9447ae00cb62425ec9cd3d670c6243 "pdflatex"
+  "algelin-resumo.bbl" 1635958088 656 6ad09e79834bfcd3d182f7c879ebd7fe "bibtex algelin-resumo"
+  "algelin-resumo.out" 1668168250 9358 4fb15554d506711f299456e12bcaee1c "pdflatex"
+  "algelin-resumo.tex" 1668168245 54000 2aa8332e7bb71f39d06dc437eaed9d49 ""
+  "algelin-resumo.toc" 1668168250 5129 cb6a1745e3157329712b8788f6f4db08 "pdflatex"
   (generated)
   "algelin-resumo.aux"
   "algelin-resumo.log"
